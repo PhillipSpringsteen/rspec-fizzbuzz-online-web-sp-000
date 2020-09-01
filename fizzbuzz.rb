@@ -2,9 +2,9 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(int)
   if int % 3 == 0 # if the number int is divisible by 3
-    print "Fizz" # Go fizz
+    return "Fizz" # Go fizz
   end
   if int % 5 == 0 # if the number int is divisible by 5
-    print "Buzz" # Go Buzz
+    return "Buzz" # Go Buzz
   end
 end
